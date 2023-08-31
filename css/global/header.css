@@ -1,0 +1,47 @@
+.header-bg {
+    background-color: var(--cor-01);
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    width: 200px;
+}
+
+.header-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.header-menu a {
+    color: var(--cor-02);
+    font-size: 1.25rem;
+    display: inline-block;
+    position: relative;
+}
+
+.header-menu a::after {
+    content: "";
+    background-color: var(--cor-02);
+    display: block;
+    width: 0%;
+    height: 3px;
+    position: absolute;
+    transition: .3s;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+
+header .header-pesquisar {
+    width: 24px;
+}
