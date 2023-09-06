@@ -1,47 +1,87 @@
-.header-bg {
-    background-color: var(--cor-01);
-}
-
 .header {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
 }
 
-header .logo {
-    width: 200px;
+.header .logo {
+    color: var(--cor-02);
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    padding-left: 50px;
 }
 
-.header-menu {
+.header .menu {
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
     gap: 40px;
 }
 
-.header-menu a {
+.menu a {
     color: var(--cor-02);
-    font-size: 1.25rem;
-    display: inline-block;
-    position: relative;
+    font-size: 1.1rem;
 }
 
-.header-menu a::after {
+.menu-item::after {
     content: "";
-    background-color: var(--cor-02);
     display: block;
-    width: 0%;
     height: 3px;
-    position: absolute;
+    width: 0%;
+    background-color: #fff;
     transition: .3s;
 }
 
-nav a:hover::after {
+.menu-item:hover::after {
     width: 100%;
 }
 
+.menu-hamburguer, .mobile-menu {
+    display: none;
+}
 
-header .header-pesquisar {
-    width: 24px;
+@media (max-width: 800px) {    
+    .menu-item, .botao {
+        display: none;
+    }
+
+    .menu-hamburguer {
+        display: block;
+        width: 24px;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .mobile-menu .menu-item {
+        display: block;
+        padding: 20px 0;
+        transition: .3s;
+        cursor: pointer;
+    }
+
+    .menu-item::after {
+        content: "";
+        display: none;
+    }
+
+    .menu-item:hover {
+        background-color: #616161;
+    }
+
+    .mobile-menu .botao {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .open {
+        display: block;
+    }
 }
