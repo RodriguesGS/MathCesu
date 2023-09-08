@@ -18,6 +18,7 @@ html {
 body {
     background-color: var(--cor-01);
     font-family: 'Poppins', sans-serif;
+    height: 2000px;
 }
 
 img {
@@ -31,4 +32,13 @@ a {
 
 li {
     list-style-type: none;
+}
+
+::-webkit-scrollbar {
+    width: 10px; 
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #383838;
 }

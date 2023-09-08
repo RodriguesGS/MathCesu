@@ -7,3 +7,6 @@
 
 /* Utilitário CSS */
 @Import "./componentes/utilitario.css";
+
+/* Main CSS */
+@Import "./secoes/main.css";
