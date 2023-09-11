@@ -18,7 +18,6 @@ html {
 body {
     background-color: var(--cor-01);
     font-family: 'Poppins', sans-serif;
-    height: 2000px;
 }
 
 img {
@@ -35,10 +34,11 @@ li {
 }
 
 ::-webkit-scrollbar {
-    width: 10px; 
+    background-color: transparent;
+    width: 5px; 
 }
 
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background-color: #383838;
+    background-color: #5b5b5b;
 }

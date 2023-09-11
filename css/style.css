@@ -13,3 +13,6 @@
 
 /* Seção de card CSS */
 @Import "./secoes/card.css";
+
+/* Footer CSS */
+@Import "./global/footer.css";
