@@ -8,11 +8,10 @@
 /* Utilitário CSS */
 @Import "./componentes/utilitario.css";
 
-/* Main CSS */
+/* Seções principais do site CSS */
 @Import "./secoes/main.css";
-
-/* Seção de card CSS */
 @Import "./secoes/card.css";
-
-/* Footer CSS */
 @Import "./global/footer.css";
+
+/* Cadastro CSS */
+@Import "./cadastro/cadastro.css";
