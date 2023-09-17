@@ -7,15 +7,27 @@
 }
 
 .botao {
-    color: var(--cor-02);
-    padding: 10px 20px;
-    background-color: var(--cor-03);
-    border-radius: 20px;
-    border: 3px solid transparent;
+    color: var(--cor-03);
+    border: 2px solid var(--cor-03);
+    padding: 8px 15px;
+    border-radius: 4px;
     transition: .3s;
+    font-weight: 600;
 }
 
 .botao:hover {
-    background-color: transparent;
-    border: 3px solid var(--cor-03);
+    background-color: var(--cor-03);
+    color: #fff;
+}
+
+.botao-dark {
+    padding: 10px 30px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #353535;
+    transition: .3s;
+}
+
+.botao-dark:hover {
+    background-color: #5f5f5f;
 }

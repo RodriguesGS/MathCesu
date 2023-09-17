@@ -9,77 +9,76 @@
 <body>
     <header>
         <div class="header container">
-            <a class="logo" href="./">Mathcesu</a>
-
-            <nav>
-                <ul class="menu">
-                    <li class="menu-item"><a href="#">Conteúdos</a></li>
-                    <li class="menu-item"><a href="#">Exercícios</a></li>
-                    <li class="menu-item"><a href="#">Contato</a></li>
-                </ul>       
-            </nav>
-
-            <a href="./pages/cadastro.html" class="botao">Cadastre-se</a>
-
-            <div class="menu-hamburguer">
-                <img class="icone" src="img/icons/hamburguer.svg" alt="menu">
+            <div class="logo">
+                <a href="index.html">Mathcesu</a>
             </div>
-        </div>
 
-        <div class="mobile-menu container">
-            <ul class="menu">
-                <li class="menu-item"><a href="#">Conteúdos</a></li>
-                <li class="menu-item"><a href="#">Exercícios</a></li>
-                <li class="menu-item"><a href="#">Contato</a></li>
-            </ul>
-
-            <a href="./pages/cadastro.html" class="botao">Cadastre-se</a>
-        </div>  
+            <div class="content-header">
+                <nav>
+                    <ul class="menu">
+                        <li class="menu-item"><a href="#">Conteúdos</a></li>
+                        <li class="menu-item"><a href="#">Exercícios</a></li>
+                        <li class="menu-item"><a href="#">Contato</a></li>
+                    </ul>       
+                </nav>
+    
+                <a href="./pages/cadastro.html" class="botao">Cadastre-se</a>
+    
+                <div class="menu-hamburguer">
+                    <img class="icone" src="img/icons/hamburguer.svg" alt="menu">
+                </div>
+            </div>
+        </div> 
     </header>
 
-    <main>
-        <div class="introducao container">
-            <div class="introducao-conteudo">
-                <p class="texto-principal">Um site feito para <br>você <span>aprimorar</span> seus <br>conhecimentos sobre<br> matemática financeira</p>
-                <p class="texto-secundario">Conheça mais sobre os conteúdos que temos separados por nível clicando aqui.</p>
+    <div class="mobile-menu container">
+        <ul class="menu">
+            <li class="menu-item"><a href="#">Conteúdos</a></li>
+            <li class="menu-item"><a href="#">Exercícios</a></li>
+            <li class="menu-item"><a href="#">Contato</a></li>
+        </ul>
 
-                <a class="botao" href="#card">Ver mais</a>
+        <a href="./pages/cadastro.html" class="botao">Cadastre-se</a>
+    </div>  
+
+    <main>
+        <div class="secao-principal container">
+            <div class="img-wrapper">
+                <img src="img/siteImage/main-img.jpg" alt="Foto de dinheiro">
+            
+                <p>Um site feito para você aprimorar <br> seus conhecimentos sobre matemática financeira</p>
+
+                <a class="botao-dark" href="#">Ver mais</a>
             </div>
 
-            <img src="img/siteImage/imagem-main.png" alt="Imagem decorativa do site">
+            <div class="card-secao">
+                <div class="card-item">
+                    <img src="img/icons/conteudo-icon.svg" alt="icone do card conteudo">
+                    <div class="card-conteudo">
+                        <h2>Conteúdos</h2>
+                        <p>Clique no botão abaixo para ver todos os nossos conteúdos</p>
+                        <a class="botao-dark" href="#">Ler mais</a>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <img src="img/icons/calculadora-icon.svg" alt="icone do card calculadora">
+                    <div class="card-conteudo">
+                        <h2>Calculadoras</h2>
+                        <p>Clique no botão abaixo para ver todas nossas calculadoras</p>
+                        <a class="botao-dark" href="#">Ler mais</a>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <img src="img/icons/simulados-icon.svg" alt="icone do card simulados">
+                    <div class="card-conteudo">
+                        <h2>Simulados</h2>
+                        <p>Clique no botão abaixo para praticar seu conhecimento com alguns exercícios</p>
+                        <a class="botao-dark" href="#">Ler mais</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
-
-    <section class="container" id="card">
-        <h2>Estudos</h2>
-
-        <div class="card-section">
-            <div class="card">
-                <img src="img/icons/conteudo-icon.png" alt="">
-                <h3>Conteúdos</h3>
-                <p>Clique no botão abaixo para ver todos os nossos conteúdos</p>
-                <a href="#">Ler mais</a>
-            </div>
-            <div class="card">
-                <img src="img/icons/exercicio-icon.png" alt="">
-                <h3>Exercícios</h3>
-                <p>Clique no botão abaixo para praticar seu conhecimento com alguns exercícios</p>
-                <a href="#">Ler mais</a>
-            </div>
-            <div class="card">
-                <img src="img/icons/calculadora-icon.png" alt="">
-                <h3>Calculadoras</h3>
-                <p>Clique no botão abaixo para ver todas nossas calculadoras</p>
-                <a href="#">Ler mais</a>
-            </div>
-            <div class="card">
-                <img src="img/icons/formula-icon.png" alt="">
-                <h3>Fórmulas</h3>
-                <p>Clique no botão abaixo para ver todas as fórmulas que são utilizadas na matemática financeira</p>
-                <a href="#">Ler mais</a>
-            </div>
-        </div>
-    </section>
 
     <footer class="footer-bg">
         <div class="footer container">
@@ -99,7 +98,7 @@
                     <h3>Você pode estar procurando por</h3>
                     <ul>
                         <li><a href="#">Termos e condições</a></li>
-                        <li><a href="#">Conteúdos</a></li>
+                        <li><a href="#">Sobre nós</a></li>
                         <li><a href="#">Calculadoras</a></li>
                         <li><a href="#">Perguntas frequentes</a></li>
                         <li><a href="#">Contato</a></li>

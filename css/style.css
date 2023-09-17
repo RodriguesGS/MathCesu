@@ -10,8 +10,7 @@
 
 /* Seções principais do site CSS */
 @Import "./secoes/main.css";
-@Import "./secoes/card.css";
 @Import "./global/footer.css";
 
-/* Cadastro CSS */
+/* Página de adastro CSS */
 @Import "./cadastro/cadastro.css";
