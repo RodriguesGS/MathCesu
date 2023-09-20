@@ -54,7 +54,7 @@ main {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
     .img-wrapper p {
         font-size: 1rem;
         bottom: 6rem;

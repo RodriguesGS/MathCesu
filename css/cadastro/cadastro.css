@@ -1,88 +1,86 @@
-.cadastro-bg {
-    color: var(--cor-02);
-    display: flex;
-    justify-content: center;
-    padding: 50px 40px 100px 40px;
-    text-align: center;
-} 
-
 .cadastro {
-    background-color: #000;
-    padding: 40px;
-    border-radius: 60px;
-    width: max-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px 100px 100px 100px;
+    align-items: center;
+    margin-bottom: 100px;
+    gap: 40px;
 }
 
-.cadastro h1 {
-    font-weight: 600;
-    padding-bottom: 20px;
-    font-size: 2.5rem;
+.informacoes-cadastro {
+    display: flex;
+    flex-direction: column;
 }
 
-.cadastro p {
-    color: var(--cor-04);
-    width: 45ch;
-    padding-bottom: 40px;
+.informacoes-cadastro h1{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
 }
 
-.cadastro input {
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 40px;
-    width: 360px;
-    background-color: transparent;
+.informacoes-cadastro p {
+    text-align: center;
+    color: #858585;
+    margin-bottom: 20px;
+}
+
+.credenciais {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    gap: 20px;
+}
+
+.credenciais img {
+    width: 24px;
+}
+
+.credenciais input{
+    width: 100%;
     border: none;
-    border-bottom: 2px solid var(--cor-03);
-    padding: 15px;
-    transition: .3s;
-    color: #fff;
-    font-size: 1.2rem;
-}
-
-.cadastro input:focus {
     outline: none;
-    background-color: #161616;
-}
-
-input::placeholder {
-    color: var(--cor-04);
-    font-family: 'Poppins', sans-serif;
+    padding: 10px 0;
+    font-size: 1.1rem;
+    border-bottom: 2px solid #000;
 }
 
 .cadastro button {
-    padding: 20px 30px;
-    width: 250px;
-    cursor: pointer;
-    background-color: var(--cor-03);
-    border: 3px solid transparent;
+    margin-top: 30px;
+    border: none;
     color: #fff;
     font-size: 1.2rem;
-    border-radius: 15px;
+    padding: 15px;
+    cursor: pointer;
     transition: .3s;
+    background-color: #1b1b1b;
+    font-weight: 600;
+    border-radius: 4px;
 }
 
 .cadastro button:hover {
-    background-color: transparent;
-    border: 3px solid var(--cor-03);    
+    background-color: #000;
+}
+
+@media (max-width: 800px) {
+    .imagem-cadastro {
+        display: none;
+    }
+
+    .cadastro {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media (max-width: 600px) {
     .cadastro {
-        padding: 40px;
+        padding: 0 20px;
     }
 
-    .cadastro h1 {
-        font-size: 1.5rem;
+    .informacoes-cadastro h1{
+        font-size: 1.7rem;
     }
-
-    .cadastro p {
-        width: 100%;
+    
+    .informacoes-cadastro p {
         font-size: .9rem;
-    }
-
-    .cadastro input {
-        width: max-content;
-        padding: 10px 5px;
-        font-size: 1rem;
     }
 }

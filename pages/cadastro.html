@@ -25,22 +25,43 @@
                 <a href="cadastro.html" class="botao">Cadastre-se</a>
     
                 <div class="menu-hamburguer">
-                    <img class="icone" src="img/icons/hamburguer.svg" alt="menu">
+                    <img class="icone" src="../img/icons/hamburguer.svg" alt="menu">
                 </div>
             </div>
         </div> 
     </header>
 
+    <div class="mobile-menu container">
+        <ul class="menu">
+            <li class="menu-item"><a href="#">Conteúdos</a></li>
+            <li class="menu-item"><a href="#">Exercícios</a></li>
+            <li class="menu-item"><a href="#">Contato</a></li>
+        </ul>
+
+        <a href="cadastro.html" class="botao">Cadastre-se</a>
+    </div> 
+
     <main class="cadastro-bg">
         <form class="cadastro container">
-            <h1>Registre-se</h1>
-            <p>Registre-se para receber em seu Email sempre que adicionarmos alguma novidade!</p>
+            <div class="informacoes-cadastro">
+                <h1>Registre-se</h1>
+                <p>Registre-se para receber nossos novos conteúdos em seu email</p>
 
-            <input type="text" name="nome" id="nomee" placeholder="Digite seu nome" required autocomplete="off">
+                <div class="credenciais">
+                    <span><img src="../img/icons/nome-icon.svg" alt="Icone do nome"></span>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome" autocomplete="off" required>
+                </div>
 
-            <input type="email" name="email" id="email" placeholder="Digite seu email" required autocomplete="off">
+                <div class="credenciais">
+                    <span><img src="../img/icons/email-icon.svg" alt="Icone do email"></span>
+                    <input type="email" name="email" id="email" placeholder="exemplo@gmail.com" autocomplete="off" required>
+                </div>
 
-            <button>Registrar</button>
+                <button class="">Registrar</button>
+            </div>
+            <div class="imagem-cadastro">
+                <img src="../img/siteImage/cadastro-img.jpg" alt="Imagem do formulário">
+            </div>
         </form>
     </main>
 
