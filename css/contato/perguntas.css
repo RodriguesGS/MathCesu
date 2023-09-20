@@ -1,0 +1,49 @@
+
+.perg-frequentes-bg {
+    padding: 100px 0;
+}
+
+dl {
+    padding-top: 40px;
+}
+
+.perguntas {
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.perguntas button {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background: none;
+    text-align: left;
+    color: var(--cor-03);
+}
+
+.perguntas button::before {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 8px;
+    background-color: var(--cor-03);
+}
+
+.perguntas dd {
+    display: none;
+}
+.perguntas dd.ativa {
+    display: block;
+    transition: .3s;
+}
+
+.perguntas dd {
+    padding-left: 20px;
+    padding-top: 16px;
+    max-width: 80ch;
+}

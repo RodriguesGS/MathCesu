@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>MathCesu | Contato</title>
+</head>
+<body id="contato">
+    <header>
+        <div class="header container">
+            <div class="logo">
+                <a href="../index.html">Mathcesu</a>
+            </div>
+
+            <div class="content-header">
+                <nav>
+                    <ul class="menu">
+                        <li class="menu-item"><a href="#">Conteúdos</a></li>
+                        <li class="menu-item"><a href="#">Exercícios</a></li>
+                        <li class="menu-item"><a href="contato.html">Contato</a></li>
+                    </ul>       
+                </nav>
+    
+                <a href="cadastro.html" class="botao">Cadastre-se</a>
+    
+                <div class="menu-hamburguer">
+                    <img class="icone" src="../img/icons/hamburguer.svg" alt="menu">
+                </div>
+            </div>
+        </div> 
+    </header>
+
+    <div class="mobile-menu container">
+        <ul class="menu">
+            <li class="menu-item"><a href="#">Conteúdos</a></li>
+            <li class="menu-item"><a href="#">Exercícios</a></li>
+            <li class="menu-item"><a href="#">Contato</a></li>
+        </ul>
+
+        <a href="cadastro.html" class="botao">Cadastre-se</a>
+    </div> 
+
+    <main class="formulario-bg" id="pergunta">
+        <div class="formulario container">
+            <span class="formulario-pergunta">Possui alguma dúvida?</span>
+            <h1 class="formulario-sub">Fale Conosco</h1>
+
+            <form>
+                <div class="dados">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" autocomplete="off" required placeholder="Seu nome">
+
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" autocomplete="off" required placeholder="exemplo@gmail.com">
+
+                    <label for="msg">Mensagem</label>
+                    <textarea name="msg" id="msg" cols="30" rows="5" placeholder="Qual a sua dúvida?"></textarea>
+
+                    <button>Enviar mensagem</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <section class="perg-frequentes-bg">
+        <div class="perg-frequentes container">
+            <span class="formulario-pergunta">Ainda está com dúvidas?</span>
+            <h2 class="formulario-sub">Perguntas frequentes</h2>
+
+            <dl>
+                <div class="perguntas">
+                    <dt><button aria-controls="pergunta1" aria-expanded="true">Quem é o público alvo do site?</button></dt>
+                    <dd id="pergunta1" class="ativa">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas qui quaerat deserunt impedit, iure ducimus quasi aut blanditiis soluta facere quia adipisci doloribus cumque molestias velit ab quo dolor aliquid!</dd>
+                </div>
+                <div class="perguntas">
+                    <dt><button aria-controls="pergunta2" aria-expanded="false">Com que frequência o conteúdo é revisado ou adicionado?</button></dt>
+                    <dd id="pergunta2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas qui quaerat deserunt impedit, iure ducimus quasi aut blanditiis soluta facere quia adipisci doloribus cumque molestias velit ab quo dolor aliquid!</dd>
+                </div>
+                <div class="perguntas">
+                    <dt><button aria-controls="pergunta3" aria-expanded="false">Como o site garante a qualidade e a confiabilidade do conteúdo?</button></dt>
+                    <dd id="pergunta3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas qui quaerat deserunt impedit, iure ducimus quasi aut blanditiis soluta facere quia adipisci doloribus cumque molestias velit ab quo dolor aliquid!</dd>  
+                </div>
+                <div class="perguntas">
+                    <dt><button aria-controls="pergunta4" aria-expanded="false">Como o site se comunica ou interaje com os usuários?</button></dt>
+                    <dd id="pergunta4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas qui quaerat deserunt impedit, iure ducimus quasi aut blanditiis soluta facere quia adipisci doloribus cumque molestias velit ab quo dolor aliquid!</dd>
+                </div>
+                <div class="perguntas">
+                    <dt><button aria-controls="pergunta5" aria-expanded="false">Ele tem algum processo de revisão ou certificação?</button></dt>
+                    <dd id="pergunta5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas qui quaerat deserunt impedit, iure ducimus quasi aut blanditiis soluta facere quia adipisci doloribus cumque molestias velit ab quo dolor aliquid!</dd>
+                </div>
+            </dl>
+        </div>
+    </section>
+
+    <footer class="footer-bg">
+        <div class="footer container">
+            <h2>Mathcesu</h2>
+            <div class="informacoes">
+                <div class="inscrever">
+                    <h3>Feito por</h3>
+                    <a href="https://github.com/RodriguesGS" target="_blank">Gabriel Rodrigues</a>
+                    <a href="#">Nathan Rodrigues</a>
+                    <a href="#">Igor Costa</a>
+                </div>
+                <div class="contato">
+                    <h3>Formas de contato</h3>
+                    <a href="mailto:contato@mathcesu.com">contato@mathcesu.com</a>
+                </div>
+                <div class="links-footer">
+                    <h3>Você pode estar procurando por</h3>
+                    <ul>
+                        <li><a href="#">Termos e condições</a></li>
+                        <li><a href="#">Conteúdos</a></li>
+                        <li><a href="#">Calculadoras</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                        <li><a href="#">Exercícios</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-copy">
+                <p>Mathcesu &copy; 2023</p>
+                <p>Bons estudos!❤️</p>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+</html>

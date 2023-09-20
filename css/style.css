@@ -14,3 +14,7 @@
 
 /* Página de adastro CSS */
 @Import "./cadastro/cadastro.css";
+
+/* Página de contato CSS */
+@Import "./contato/contato.css";
+@Import "./contato/perguntas.css";
