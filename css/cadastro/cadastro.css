@@ -73,7 +73,7 @@
 
 @media (max-width: 600px) {
     .cadastro {
-        padding: 0;
+        padding: 30px;
     }
 
     .informacoes-cadastro h1{

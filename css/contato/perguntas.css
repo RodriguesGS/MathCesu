@@ -47,3 +47,13 @@ dl {
     padding-top: 16px;
     max-width: 80ch;
 }
+
+.perguntas a {
+    font-weight: 600;
+    color: #000;
+    transition: .3s;
+}
+
+.perguntas a:hover {
+    color: var(--cor-03);
+}

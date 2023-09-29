@@ -18,7 +18,7 @@
 }
 
 .formulario form {
-    width: 700px;
+    max-width: 700px;
     padding-top: 50px;
 }
 
@@ -64,4 +64,8 @@
 .dados button:hover {
     background-color: transparent;
     color: var(--cor-03);
+}
+
+@media (max-width: 800px) {
+
 }
