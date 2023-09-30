@@ -12,9 +12,12 @@
 @Import "./secoes/main.css";
 @Import "./global/footer.css";
 
-/* Página de adastro CSS */
+/* Página de Cadastro CSS */
 @Import "./cadastro/cadastro.css";
 
 /* Página de contato CSS */
 @Import "./contato/contato.css";
 @Import "./contato/perguntas.css";
+
+/* Página Sobre nós CSS */
+@Import "./sobre/sobre.css";
