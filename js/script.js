@@ -7,10 +7,10 @@ hamburguer.addEventListener("click", function() {
     
     if (mobileMenu.classList.contains("open")) {
         mobileMenu.classList.remove("open")
-        document.querySelector(".icone").src = "../img/icons/hamburguer.svg"
+        document.querySelector(".icone").src = "/img/icons/hamburguer.svg"
     } else {
         mobileMenu.classList.add("open")
-        document.querySelector(".icone").src = "../img/icons/fechar.svg"
+        document.querySelector(".icone").src = "/img/icons/fechar.svg"
     }
 })
 
@@ -36,9 +36,3 @@ perguntas.forEach(pergunta => {
         perguntaClicada.setAttribute("aria-expanded", ativa); 
     });
 });
-
-
-
-
-
-

@@ -6,21 +6,24 @@
 @import "./global/header.css";
 
 /* Utilitário CSS */
-@Import "./componentes/utilitario.css";
+@import "./componentes/utilitario.css";
 
 /* Seções principais do site CSS */
-@Import "./secoes/main.css";
-@Import "./global/footer.css";
+@import "./secoes/main.css";
+@import "./global/footer.css";
 
 /* Página de Cadastro CSS */
-@Import "./cadastro/cadastro.css";
+@import "./cadastro/cadastro.css";
 
 /* Página de contato CSS */
-@Import "./contato/contato.css";
-@Import "./contato/perguntas.css";
+@import "./contato/contato.css";
+@import "./contato/perguntas.css";
 
 /* Página Sobre nós CSS */
-@Import "./sobre/sobre.css";
+@import "./sobre/sobre.css";
 
 /* Página Conteúdos nós CSS */
-@Import "./secoes/conteudo.css";
+@import "./secoes/conteudo.css";
+
+/* Configuração geral de todas as páginas de conteudo CSS */
+@import "./pages/pages.css"

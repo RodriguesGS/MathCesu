@@ -9,6 +9,9 @@
     --cor-02: #FFF5D6;
     --cor-03: #D96153;
     --cor-04: #616161;
+
+    --cor-links: #929292;
+    --cor-sub: #f59c92;
 }
 
 html {
@@ -27,6 +30,7 @@ img {
 
 a {
     text-decoration: none;
+    color: #000;
 }
 
 li {

@@ -1,0 +1,47 @@
+.secao-links a{
+    font-size: 1.2rem;
+    transition: .3s;
+}
+
+.secao-links a:hover {
+    color: var(--cor-03);
+}
+
+.secao-links .atual{
+    color: var(--cor-links);
+    pointer-events: none;
+}
+
+.conceito-titulo {
+    font-size: 4rem;
+    color: var(--cor-03);
+}
+
+.material {
+    max-width: 100ch;
+    padding: 50px 0;
+}
+
+.material h2 {
+    padding: 30px 0 15px 0;
+    font-size: 2rem;
+    color: #f59c92;
+}
+
+.material p {
+    padding-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+    .secao-links a{
+        font-size: 1rem;
+    }
+
+    .conceito-titulo {
+        font-size: 2.5rem;
+    }
+
+    .material h2 {
+        font-size: 1.5rem;
+    }
+}
