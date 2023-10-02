@@ -1,0 +1,62 @@
+.conteudo-titulo {
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+.conteudo-subtitulo {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.conteudo-subtitulo::after {
+    content: "";
+    display: block;
+    width: 5%;
+    height: 5px;
+    background-color: var(--cor-03);
+}
+
+.conteudo-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 40px 0;
+}
+
+.card {
+    border: 2px solid var(--cor-03);
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.card:hover {
+    background: var(--cor-03);
+    color: #fff;
+}
+
+.card h3 {
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 10px; 
+}
+
+.card p {
+    font-size: .9rem;
+}
+
+@media (max-width: 800px) {
+    .conteudo-titulo {
+        font-size: 3rem;
+    }
+
+    .conteudo-subtitulo {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    .conteudo-card {
+        grid-template-columns: 1fr;
+    }
+}

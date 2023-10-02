@@ -21,3 +21,6 @@
 
 /* Página Sobre nós CSS */
 @Import "./sobre/sobre.css";
+
+/* Página Conteúdos nós CSS */
+@Import "./secoes/conteudo.css";
