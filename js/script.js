@@ -1,18 +1,18 @@
 // Fazer a troca de icones para o mobile
 
-const hamburguer = document.querySelector(".menu-hamburguer")
+const hamburguer = document.querySelector(".menu-hamburguer");
 
 hamburguer.addEventListener("click", function() {
-    let mobileMenu = document.querySelector(".mobile-menu")
+    let mobileMenu = document.querySelector(".mobile-menu");
     
     if (mobileMenu.classList.contains("open")) {
-        mobileMenu.classList.remove("open")
-        document.querySelector(".icone").src = "/img/icons/hamburguer.svg"
+        mobileMenu.classList.remove("open");
+        document.querySelector(".icone").src = "/img/icons/hamburguer.svg";
     } else {
         mobileMenu.classList.add("open")
-        document.querySelector(".icone").src = "/img/icons/fechar.svg"
+        document.querySelector(".icone").src = "/img/icons/fechar.svg";
     }
-})
+});
 
 // Ativar as perguntas frequentes
 const perguntas = document.querySelectorAll(".perguntas button");
